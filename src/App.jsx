@@ -3,7 +3,7 @@ import { Download, Wallet, PieChart, Bell } from "lucide-react";
 function App() {
 
   const downloadApk = () => {
-    window.location.href = "/app.apk";
+    window.location.href = "/app-release.apk";
   };
 
   return (
