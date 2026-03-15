@@ -2,6 +2,9 @@
 
 This repository contains the official website for downloading the **Expense Tracker Android application**.
 
+🔗 **Live Website:**
+https://expense-tracker-website-9iy2.onrender.com/
+
 The website provides a simple landing page where users can learn about the app features and download the APK file directly without using the Play Store.
 
 ---
@@ -11,6 +14,28 @@ The website provides a simple landing page where users can learn about the app f
 **Expense Tracker** is a smart mobile application built with **Flutter** that helps users manage daily expenses and control their monthly budget.
 
 The app can automatically detect bank transactions from SMS, analyze spending patterns, and notify users when they are close to exceeding their budget.
+
+Key capabilities:
+
+• 📩 Automatic **SMS transaction detection**
+• 📊 Smart **expense analytics & charts**
+• 💰 **Monthly budget tracking**
+• 🔔 **Budget warning notifications**
+• 📜 **Complete expense history**
+
+---
+
+# 🌍 Live Demo
+
+You can access the live website here:
+
+👉 https://expense-tracker-website-9iy2.onrender.com/
+
+From this website users can:
+
+• Learn about the app features
+• View app screenshots
+• Download the Android APK directly
 
 ---
 
@@ -27,22 +52,24 @@ The app can automatically detect bank transactions from SMS, analyze spending pa
 
 # 🛠 Tech Stack
 
-Frontend Framework:
+## Frontend Framework
 
 * React
 * Vite
 
-Styling:
+## Styling
 
 * Tailwind CSS
 
-Icons:
+## Icons
 
 * Lucide React
 
-Deployment:
+## Deployment
 
-* Render / Vercel / Netlify
+* Render
+* Vercel
+* Netlify
 
 ---
 
@@ -110,15 +137,17 @@ To build the website for deployment:
 npm run build
 ```
 
-This will generate a **dist** folder containing the production build.
+This will generate a **dist folder** containing the production build.
 
 ---
 
 # 🌐 Deployment
 
-You can deploy the website using the following platforms:
+You can deploy the website using the following platforms.
 
-### Render
+---
+
+## Render
 
 Build Command:
 
@@ -132,17 +161,45 @@ Publish Directory:
 dist
 ```
 
+After deployment your website will be accessible like this:
+
+```
+https://expense-tracker-website-9iy2.onrender.com/
+```
+
 ---
 
-### Vercel
+## Vercel
 
-Import the GitHub repository and deploy instantly.
+1. Import the GitHub repository
+2. Select **Vite framework**
+3. Deploy instantly
 
 ---
 
-### Netlify
+## Netlify
 
-Upload the **dist** folder or connect the GitHub repository.
+You can deploy in two ways:
+
+### Option 1
+
+Upload the **dist folder**
+
+### Option 2
+
+Connect the **GitHub repository**
+
+Build Command:
+
+```
+npm run build
+```
+
+Publish Directory:
+
+```
+dist
+```
 
 ---
 
@@ -156,6 +213,12 @@ public/app-release.apk
 
 Users can download the app directly from the website using the **Download APK** button.
 
+Example download link used in the website:
+
+```
+/app-release.apk
+```
+
 ---
 
 # 👨‍💻 Author
@@ -165,7 +228,6 @@ Users can download the app directly from the website using the **Download APK** 
 Flutter Developer | Full Stack Developer
 
 GitHub:
-
 https://github.com/Karanx11
 
 ---
@@ -174,8 +236,12 @@ https://github.com/Karanx11
 
 If you like this project:
 
-* ⭐ Star the repository
-* 📢 Share it with others
-* 🚀 Try the Expense Tracker app
+⭐ Star the repository
+📢 Share it with others
+🚀 Try the Expense Tracker app
 
 ---
+
+# 📜 License
+
+This project is open-source and available under the **MIT License**.
