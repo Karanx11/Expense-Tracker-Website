@@ -76,11 +76,6 @@ function App() {
             text="Add expenses manually or detect transactions automatically from SMS."
           />
 
-          <Feature
-            icon={<PieChart />}
-            title="Analytics"
-            text="View category-wise spending insights and monthly analytics."
-          />
 
           <Feature
             icon={<Bell />}
