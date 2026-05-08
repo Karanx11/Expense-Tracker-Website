@@ -1,16 +1,28 @@
+/* index.css */
+
 @import "tailwindcss";
 
-body{
-  background:#020617;
-  color:white;
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #020617;
+  color: white;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+}
+
+/* FLOAT ANIMATION */
 @keyframes float {
   0% {
     transform: translateY(0px);
   }
 
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
   }
 
   100% {
@@ -19,16 +31,23 @@ body{
 }
 
 .animate-float {
-  animation: float 4s ease-in-out infinite;
-}
-@keyframes float {
-  0% { transform: translateY(0px); }
-
-  50% { transform: translateY(-12px); }
-
-  100% { transform: translateY(0px); }
+  animation: float 5s ease-in-out infinite;
 }
 
-.animate-float{
-  animation: float 4s ease-in-out infinite;
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #606F49;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #73855a;
 }
