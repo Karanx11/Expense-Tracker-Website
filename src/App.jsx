@@ -89,7 +89,7 @@ function App() {
             </button>
 
             <a
-              href="https://github.com/Karanx11"
+              href="https://github.com/Karanx11/Expense-Tracker"
               target="_blank"
               className="border border-white/10 hover:border-white/20 bg-white/5 px-8 py-4 rounded-2xl text-lg font-medium flex items-center justify-center gap-3 transition hover:bg-white/10"
             >
